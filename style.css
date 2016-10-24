@@ -1,69 +1,110 @@
-body {background-color:#efeee7;}
-h1   {color:blue;}
 
-<!--p     -->
-<!--{color:red;} -->
 
-#head { text-align:center; }
+body {background-color:#777; width: 1024px; margin: 0 auto; } // entire background
 
-.container{background-color:#efeee7;}
-
+h1   {color:#ebebeb;}
 
 header {
 
-	background: #ccc;
-	padding: 20px;
-	margin-bottom: 20px;
-	color: #333;
+	background: #ebebeb;
+	text-align:center;
+	padding: 30px;
+	margin: 10px;
+
 }
+
+nav {
+
+	background: #ebebeb;
+	text-align:center;
+	padding: 30px;
+	margin: 10px;
+
+}
+
 
 section {
-
-}
-
-#left { 
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #333;
-    width: 33%;
-    float: left;
-}
-
-#middle {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #888;
-    width: 33.33%;
-    float: left;
-}
-
-#right {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #666;
-    width: 33.33%;
-    float: left;
-}
-
-
-#aside {
-    background: #fff;
-    width: 33.33%;
+	background: #ebebeb;
+	text-align:center;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+    width: 60%;
     height: 200px;
-    padding-top: 20px;
-    float: left;
-    margin-left: 10px;
 }
+
+aside {
+	background: #ebebeb;
+	text-align:center;
+	padding: 20px;
+	margin: 10px;
+	float: right;
+	width: 285px;
+	height: 200px;
+}
+
+
+
 
 
 footer {
-  background: #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
+	clear: both;
+  	background: #ebebeb;
+	text-align:center;
+	padding: 30px;
+	margin:10px;
+
+}
+
+article {
+	clear: both;
+	background: #777;
+	text-align:center;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 160px;
+}
+
+#theh {
+	background: #ebebeb;
+	text-align:center;
+	padding: 10px;
+	margin: 10px;
 }
 
 
-#_3boxline {overflow: auto}
+#thep {
+	background: #ebebeb;
+	text-align:center;
+	padding: 10px;
+	margin: 10px;
+}
 
-#_3rd_line {overflow: auto}
+
+/*
+.container{background-color:#efeee7;}
+
+.clearfix{overflow: auto;}
+
+#wrapper { 
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+article {
+	clear: both;
+	background: #777;
+	text-align:center;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 160px;
+}
+
+<!--p background-color:#efeee7  background: #ccc;  -->
+<!--{color:red;} -->
+
+
+
+*/
