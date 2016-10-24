@@ -25,12 +25,14 @@ nav {
 
 section {
 	background: #ebebeb;
-	text-align:center;
-	padding: 20px;
-	margin: 10px;
-	float: left;
-    width: 60%;
-    height: 200px;
+    width: 600px;
+    
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    
+    height: 350px;
 }
 
 aside {
@@ -40,7 +42,7 @@ aside {
 	margin: 10px;
 	float: right;
 	width: 285px;
-	height: 200px;
+	height: 350px;
 }
 
 
@@ -60,31 +62,59 @@ article {
 	clear: both;
 	background: #777;
 	text-align:center;
-	padding: 10px;
-	margin-bottom: 10px;
-	height: 160px;
+	padding: 20px;
+	margin: 10px;
+	height: 25px;
+	width: 465px;
 }
 
+#thea {
+	width: 485px;
+	float: left;
+}
+
+
 #theh {
+	
+	text-align:center;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	width: 485px;
+}
+
+#specialdiv {
 	background: #ebebeb;
 	text-align:center;
 	padding: 10px;
 	margin: 10px;
+	width: 550px;
+	height: 250px;
+	
 }
+
 
 
 #thep {
+	clear: both;
 	background: #ebebeb;
 	text-align:center;
 	padding: 10px;
 	margin: 10px;
+	width: 485px;
 }
-
+div {
+    border: 3px solid blue;
+}
 
 /*
 .container{background-color:#efeee7;}
 
 .clearfix{overflow: auto;}
+
+div {
+    border: 3px solid blue;
+}
 
 #wrapper { 
     padding: 30px;
@@ -105,6 +135,6 @@ article {
 <!--p background-color:#efeee7  background: #ccc;  -->
 <!--{color:red;} -->
 
-
+height: 160px;
 
 */
