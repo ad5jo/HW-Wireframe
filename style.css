@@ -1,9 +1,17 @@
 
 
-body {background-color:#777; width: 960px; font-size: 18px; font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;margin: 0 auto; } // entire background
+body {
+	background-color:#777; 
+	width: 960px; 
+	font-size: 18px; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+	margin: 0 auto; 
+	} // entire background
 // font-size here sets the whole page
 
-h1   {color:#ebebeb;}
+h1   {
+	color:#ebebeb;
+}
 
 header {
 
@@ -93,40 +101,3 @@ article {
 	width: 390px;
 
 }
-
-
-/*
-
-div {
-    border: 3px solid blue;
-}
-.container{background-color:#efeee7;}
-
-.clearfix{overflow: auto;}
-
-div {
-    border: 3px solid blue;
-}
-
-#wrapper { 
-    padding: 30px;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-
-article {
-	clear: both;
-	background: #777;
-	text-align:center;
-	padding: 10px;
-	margin-bottom: 10px;
-	height: 160px;
-}
-
-<!--p background-color:#efeee7  background: #ccc;  -->
-<!--{color:red;} -->
-
-height: 160px;
-
-*/
